@@ -1,4 +1,4 @@
-# Tarea -  Moldeo MVC
+# Tarea -  Modelo MVC
 
 ## Propósito
 
