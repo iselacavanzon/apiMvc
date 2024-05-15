@@ -14,8 +14,9 @@ Nota:  En caso de haber hecho fork del proyecto primero ejecutar el comando `npm
 5.Adjunta igualmente fotos de como se ve en funcionamiento tu api.
 
 Nota: puedes probar este api accediendo a los dos siguientes endpoints:
-**ruta:**http://localhost:3000/path
-**libros:**http://localhost:3000/bookList
+
+ruta:http://localhost:3000/path
+libros:http://localhost:3000/bookList
 
 Nota: Usa como referencia el código de tu endpoint pasado, el ejemplo de como hacer un request del libro por indice es el siguiente:
 
