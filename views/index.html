@@ -4,14 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>API-MVC</title>
 </head>
 
 <body>
-    <h1>Listado de libros</h1>
-    <ul>
+    <h1 style="font-family: montserrat; color: cornflowerblue;">Listado de libros:</h1>
+    <ul style="font-family: Montserrat;">
         <% for (book of name.books) { %>
-            <li>
+            <li type="1">
                 <%= book.name %>
             </li>
             <% } %>

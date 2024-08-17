@@ -20,4 +20,17 @@ module.exports = {
       name: { ...data },
     });
   },
+  getBookById: (req, res) => {
+    const data = readData();
+    const id = parseInt(req.params.id, 10);
+    const book = data.books.find((book) => book.id === id);
+
+    if (!book) {
+      return res.status(404).send('Book not found');
+    }
+
+    res.render(__dirname + "/../views/bookid.html", {
+      book,
+    });
+  }
 };
